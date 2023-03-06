@@ -4,16 +4,7 @@ import './App.css';
 function App() {
 
 //logika 
-const [godina, setGodina] = useState(2023);
-const [klik, setKlik] = useState(0)
 
-const init = useCallback(() => {
-  console.log("compponent init")
-}, []);
-
-useEffect(() => {
- init();
-}, [init])
  
   return (
     <div className="">
